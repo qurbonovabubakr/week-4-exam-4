@@ -905,21 +905,40 @@ img {
     }
 
     .module-summary {
-        padding: 15px 20px;
+        padding: 20px 15px;
+        align-items: center;
     }
 
     .summary-left {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 5px;
+        display: block;
+        width: 80%;
+    }
+
+    .module-number {
+        display: block;
+        font-size: 15px;
+        margin-bottom: 8px;
     }
 
     .module-title {
+        display: block;
         font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .summary-right {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .arrow-img {
+        width: 28px;
+        height: 28px;
     }
 
     .module-content {
-        padding: 10px 20px 20px 20px;
+        padding: 10px 15px 20px 15px;
     }
 
     .action-btn-box {
