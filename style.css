@@ -1679,3 +1679,80 @@ img {
         padding: 10px;
     }
 }
+
+.join-community-section {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Rectangle\ 1992.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.community-header {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.community-title {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.community-subtitle-box {
+    max-width: 650px;
+    margin: 0 auto 35px auto;
+}
+
+.community-subtitle {
+    color: #e0e0e0;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.community-btn-box {
+    display: flex;
+    justify-content: center;
+}
+
+.community-button {
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    padding: 16px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    .join-community-section {
+        padding: 50px 15px;
+    }
+
+    .community-title {
+        font-size: 22px;
+    }
+
+    .community-subtitle-box {
+        margin-bottom: 25px;
+    }
+
+    .community-subtitle {
+        font-size: 13px;
+        padding: 0 5px;
+    }
+
+    .community-button {
+        padding: 14px 20px;
+        font-size: 14px;
+        width: 100%;
+        max-width: 290px;
+    }
+}
