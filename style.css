@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 550px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 35, 45, 0.55), rgba(0, 35, 45, 0.55)), url("./uae-4-2048x1367\ 2.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 64%;
+    max-width: 1100px;
+    margin: auto;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 17px;
+    white-space: nowrap;
+}
+
+.logo span {
+    color: #00bda5;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.login {
+    background: #00b99e;
+    color: white;
+    border: none;
+    padding: 11px 28px;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.content {
+    width: 64%;
+    max-width: 1100px;
+    margin: 80px auto 0;
+}
+
+.content h1 {
+    font-size: clamp(20px, 2.3vw, 27px);
+    line-height: 1.5;
+}
+
+.content h1 span {
+    background: #00b99e;
+    padding: 4px 8px;
+}
+
+.desktop-subtitle {
+    font-size: 21px;
+    margin-top: 8px;
+}
+
+.apply {
+    margin-top: 18px;
+    padding: 17px 35px;
+    background: linear-gradient(to right, #62b9e9, #087ab4);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.mobile-text,
+.mobile-subtitle {
+    display: none;
+}
+
+@media (max-width: 500px) {
+
+    .hero {
+        height: 100svh;
+        min-height: 600px;
+        background-position: center center;
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        min-height: 65px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .menu {
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .menu a {
+        font-size: 10px;
+    }
+
+    .login {
+        padding: 7px 17px;
+        font-size: 11px;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 8px;
+        position: relative;
+        top: clamp(100px, 25vh, 190px);
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: clamp(12px, 4.2vw, 21px);
+        line-height: 2;
+    }
+
+    .content h1 span {
+        padding: 4px 7px;
+    }
+
+    .desktop-text,
+    .desktop-subtitle {
+        display: none;
+    }
+
+    .mobile-text {
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+    .mobile-subtitle {
+        display: block;
+        font-size: clamp(10px, 2.8vw, 12px);
+        margin-top: 18px;
+        line-height: 2;
+    }
+
+    .mobile-subtitle span {
+        background: white;
+        color: #00b99e;
+        font-weight: bold;
+        padding: 3px;
+        white-space: nowrap;
+    }
+
+    .apply {
+        margin-top: 25px;
+        width: 145px;
+        height: 44px;
+        padding: 0;
+        font-size: 12px;
+    }
+}
