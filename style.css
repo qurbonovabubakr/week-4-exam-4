@@ -1323,3 +1323,171 @@ img {
         font-size: 24px;
     }
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-section {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+.about-header {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.about-main-title {
+    color: #1a73e8;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.about-info-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.about-image-side {
+    width: 48%;
+}
+
+.about-ui-img {
+    width: 100%;
+    height: auto;
+}
+
+.about-text-side {
+    width: 48%;
+    text-align: left;
+}
+
+.about-desc {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+}
+
+.about-desc strong {
+    color: #1a73e8;
+}
+
+.founder-card-wrapper {
+    width: 100%;
+}
+
+.founder-card {
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.founder-image-box {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.founder-img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+}
+
+.founder-text-box {
+    width: 70%;
+    text-align: left;
+}
+
+.founder-greeting {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
+.founder-bio {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 0 25px 0;
+}
+
+.founder-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.founder-name {
+    color: #222222;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.founder-title {
+    color: #888888;
+    font-size: 13px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .about-main-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about-info-block {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .about-image-side {
+        width: 100%;
+    }
+
+    .about-text-side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .founder-card {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .founder-image-box {
+        width: 100%;
+        order: 2;
+    }
+
+    .founder-text-box {
+        width: 100%;
+        order: 1;
+        text-align: center;
+    }
+
+    .founder-meta {
+        align-items: center;
+        margin-top: 20px;
+    }
+}
