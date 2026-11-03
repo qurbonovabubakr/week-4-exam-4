@@ -774,3 +774,159 @@ img {
         padding: 60px 15px;
     }
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.program-section {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+
+.program-header {
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.program-main-title {
+    color: #1a73e8;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.module-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+}
+
+.module-summary {
+    padding: 22px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.summary-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.module-number {
+    color: #1a73e8;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.module-title {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.summary-right {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-img {
+    width: 32px;
+    height: 32px;
+}
+
+.module-content {
+    padding: 10px 30px 30px 30px;
+    border-top: 1px solid #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.content-line {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.highlight-text {
+    color: #1a73e8;
+    font-weight: bold;
+}
+
+.demo-day-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+    padding: 22px 30px;
+    text-align: left;
+}
+
+.demo-day-box p {
+    color: #1a73e8;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+.action-btn-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.program-download-btn {
+    background-color: #1a73e8;
+    color: #ffffff;
+    border: none;
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .program-main-title {
+        font-size: 22px;
+    }
+
+    .module-summary {
+        padding: 15px 20px;
+    }
+
+    .summary-left {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .module-title {
+        font-size: 15px;
+    }
+
+    .module-content {
+        padding: 10px 20px 20px 20px;
+    }
+
+    .action-btn-box {
+        justify-content: center;
+    }
+
+    .program-download-btn {
+        width: 100%;
+    }
+}
